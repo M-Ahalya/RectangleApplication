@@ -27,8 +27,9 @@ namespace RectangleApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(" Ashish project");
             Rectangle r = new Rectangle();
-            r.length = 4.5;
+            r.length = 45;
             r.width = 3.5;
             r.Display();
             Console.ReadLine();
